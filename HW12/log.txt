@@ -1,0 +1,104 @@
+/usr/bin/python3.8 /home/alex/PycharmProjects/HW12/task1.py
+Simulation step 1 of router 56.209.21.51:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+56.209.21.51    179.236.233.138      179.236.233.138 1              
+
+Simulation step 1 of router 117.232.136.141:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+117.232.136.141 56.209.21.51         56.209.21.51    1              
+117.232.136.141 179.236.233.138      56.209.21.51    2              
+
+Simulation step 1 of router 179.236.233.138:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+179.236.233.138 179.236.233.138      179.236.233.138 1              
+179.236.233.138 56.209.21.51         56.209.21.51    1              
+179.236.233.138 117.232.136.141      56.209.21.51    2              
+
+
+Final state of router 56.209.21.51:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+56.209.21.51    179.236.233.138      179.236.233.138 1              
+
+Final state of router 117.232.136.141:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+117.232.136.141 56.209.21.51         56.209.21.51    1              
+117.232.136.141 179.236.233.138      56.209.21.51    2              
+
+Final state of router 179.236.233.138:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+179.236.233.138 179.236.233.138      179.236.233.138 1              
+179.236.233.138 56.209.21.51         56.209.21.51    1              
+179.236.233.138 117.232.136.141      56.209.21.51    2              
+
+
+Simulation step 2 of router 56.209.21.51:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+56.209.21.51    179.236.233.138      179.236.233.138 1              
+56.209.21.51    117.232.136.141      179.236.233.138 3              
+
+Simulation step 2 of router 117.232.136.141:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+117.232.136.141 56.209.21.51         56.209.21.51    1              
+117.232.136.141 179.236.233.138      56.209.21.51    2              
+
+Simulation step 2 of router 179.236.233.138:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+179.236.233.138 179.236.233.138      179.236.233.138 1              
+179.236.233.138 56.209.21.51         56.209.21.51    1              
+179.236.233.138 117.232.136.141      56.209.21.51    2              
+
+
+Final state of router 56.209.21.51:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+56.209.21.51    179.236.233.138      179.236.233.138 1              
+56.209.21.51    117.232.136.141      179.236.233.138 3              
+
+Final state of router 117.232.136.141:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+117.232.136.141 56.209.21.51         56.209.21.51    1              
+117.232.136.141 179.236.233.138      56.209.21.51    2              
+
+Final state of router 179.236.233.138:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+179.236.233.138 179.236.233.138      179.236.233.138 1              
+179.236.233.138 56.209.21.51         56.209.21.51    1              
+179.236.233.138 117.232.136.141      56.209.21.51    2              
+
+
+Simulation step 3 of router 56.209.21.51:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+56.209.21.51    179.236.233.138      179.236.233.138 1              
+56.209.21.51    117.232.136.141      179.236.233.138 3              
+
+Simulation step 3 of router 117.232.136.141:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+117.232.136.141 56.209.21.51         56.209.21.51    1              
+117.232.136.141 179.236.233.138      56.209.21.51    2              
+
+Simulation step 3 of router 179.236.233.138:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+179.236.233.138 179.236.233.138      179.236.233.138 1              
+179.236.233.138 56.209.21.51         56.209.21.51    1              
+179.236.233.138 117.232.136.141      56.209.21.51    2              
+
+
+Final state of router 56.209.21.51:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+56.209.21.51    179.236.233.138      179.236.233.138 1              
+56.209.21.51    117.232.136.141      179.236.233.138 3              
+
+Final state of router 117.232.136.141:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+117.232.136.141 56.209.21.51         56.209.21.51    1              
+117.232.136.141 179.236.233.138      56.209.21.51    2              
+
+Final state of router 179.236.233.138:
+[Source IP]     [Destination IP]     [Next Hop]      Metric         
+179.236.233.138 179.236.233.138      179.236.233.138 1              
+179.236.233.138 56.209.21.51         56.209.21.51    1              
+179.236.233.138 117.232.136.141      56.209.21.51    2              
+
+
+
+Process finished with exit code 0
+
